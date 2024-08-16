@@ -14,9 +14,6 @@ export class UserComponent {
  @Output() select = new EventEmitter<string>();
 
 
-
-
-
   get imagePath(){
     return 'assets/users/' + this.avatar;
 }
